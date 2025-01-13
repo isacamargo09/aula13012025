@@ -1,0 +1,136 @@
+/* Reset Geral */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4faff;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .logo h1 {
+    font-size: 24px;
+    color: #007bff;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #eaf4ff;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h2 {
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.cta-buttons .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-buttons .btn-secondary {
+    background-color: #ffffff;
+    color: #007bff;
+    border: 2px solid #007bff;
+    transition: background-color 0.3s;
+}
+
+.cta-buttons .btn:hover {
+    background-color: #0056b3;
+}
+
+.cta-buttons .btn-secondary:hover {
+    background-color: #eaf4ff;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.steps .step {
+    text-align: center;
+    max-width: 300px;
+}
+
+.steps .step h3 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.steps .step p {
+    font-size: 16px;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    margin-top: 20px;
+}
